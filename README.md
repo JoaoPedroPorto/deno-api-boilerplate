@@ -29,7 +29,7 @@ PORT | 8080 | -
     deno run --allow-net --allow-read src/index.ts
 
     # test
-    deno test
+    deno test src/
 ```
 
 ## Routes
