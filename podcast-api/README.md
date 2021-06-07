@@ -5,6 +5,9 @@ This is a totally fake REST API using [json-server](https://www.npmjs.com/packag
 ## Usage
 
 ```sh
+    # install node version and dependencies
+    nvm install && npm ci (npm i)
+
     # start
     npm run server
 ```
