@@ -27,5 +27,5 @@ export const getPodcastBySlug = async ({
   getPodcastById(slug)
   .then((data: IPodcast) => response.body = {
     message: 'Podcast returned successfully',
-    data: data || null
+    data
   })
