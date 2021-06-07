@@ -5,7 +5,7 @@ import { IContext } from '../interfaces/context.ts'
 
 const router = new Router()
 
-router.get('/api/v1/healthcheck', ({ response }: IContext) => {
+router.get('/api/v1/healthcheck', ({ response }: IContext): void => {
   response.body = 'WORKING!!!'
 })
 

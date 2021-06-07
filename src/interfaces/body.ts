@@ -1,4 +1,5 @@
+import { IPodcast } from '../interfaces/podcast.ts'
 export interface IBody {
   message: string
-  data: any
+  data: Array<IPodcast> | IPodcast
 }
