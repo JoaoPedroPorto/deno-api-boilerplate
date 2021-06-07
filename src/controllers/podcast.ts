@@ -14,7 +14,7 @@ export const getAllPodcasts = async ({
   const perPage: number = Number(request.url.searchParams.get('perPage')) || DEFAULT_PER_PAGE
 
   return getPodcasts(page, perPage)
-    .then((data: Array<IPodcast> | []) => response.body = {
+    .then((data: Array<IPodcast>) => response.body = {
     message: 'Podcast list returned successfully',
     data
   })
